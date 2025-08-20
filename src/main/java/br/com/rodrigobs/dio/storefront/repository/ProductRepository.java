@@ -8,5 +8,5 @@ import java.util.UUID;
 
 public interface ProductRepository extends JpaRepository<ProductEntity, UUID> {
 
-    List<ProductEntity> findByActiveTrueOrderByAsc();
+    List<ProductEntity> findByActiveTrueOrderByNameAsc();
 }

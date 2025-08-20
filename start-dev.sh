@@ -1,2 +1,2 @@
-gradle clean
-gradle bootRun
+./gradlew clean build
+./gradlew bootRun
